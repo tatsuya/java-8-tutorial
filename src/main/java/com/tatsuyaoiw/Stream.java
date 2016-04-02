@@ -153,7 +153,7 @@ public class Stream {
 
 	private static int getMin(List<Integer> numbers) {
 		int min = numbers.get(0);
-		for(int i = 1; i < numbers.size(); i++){
+		for(int i = 1; i < numbers.size(); i++) {
 			Integer number = numbers.get(i);
 			if (number < min) {
 				min = number;
@@ -164,7 +164,7 @@ public class Stream {
 
 	private static int getSum(List numbers) {
 		int sum = (int) numbers.get(0);
-		for(int i = 1; i < numbers.size(); i++){
+		for(int i = 1; i < numbers.size(); i++) {
 			sum += (int) numbers.get(i);
 		}
 		return sum;
