@@ -16,11 +16,11 @@ package com.tatsuyaoiw;
  * - Optional return keyword: The compiler automatically returns the value if the body has a single expression to return
  *   the value. Curly braces are required to indicate that expression returns a value.
  */
-public class LambdaTester {
+public class LambdaExpression {
 	final static String salutation = "Hello! ";
 
 	public static void main(String args[]){
-		LambdaTester tester = new LambdaTester();
+		LambdaExpression tester = new LambdaExpression();
 
 		// With type declaration
 		MathOperation addition = (int a, int b) -> a + b;
