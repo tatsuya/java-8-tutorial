@@ -1,4 +1,4 @@
-package com.tatsuyaoiw;
+package com.tatsuyaoiw.java8;
 
 import java.util.ArrayList;
 

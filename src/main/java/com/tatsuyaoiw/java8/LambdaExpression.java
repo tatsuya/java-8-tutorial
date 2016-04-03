@@ -1,4 +1,4 @@
-package com.tatsuyaoiw;
+package com.tatsuyaoiw.java8;
 
 /**
  * Lambda expressions are introduced in Java 8. Lambda expression facilitates functional programming, and simplifies the
